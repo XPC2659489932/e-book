@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--[if lt IE 9]>
+        <script src="html5-shim.js"></script>
+        <![endif]-->
+		<link type="text/css" href="main.css" rel="stylesheet" media="screen" />
+	</head>
+	<body>
+		<div id="book">
+			<div id="pages">
+				<section>
+					<div>
+						<h2>History</h2>
+						<p>   曾经有一份真诚的爱情放在我面前，我没有珍惜，等我失去的时候我才后悔莫及，人世间最痛苦的事莫过于此。 
+                           如果上天能够给我一个再来一次的机会，我会对那个女孩子说三个字：我爱你。 
+                              如果非要在这份爱上加上一个期限，我希望是…… 
+                           一万年</p>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>第二页</h2>
+						<p>我的意中人是一个盖世英雄。 
+                           上天既然安排他拔出我的紫青宝剑， 
+                           他一定是个不平凡的人， 
+                            错不了！ 
+                           我知道有一天他会在一个万众瞩目的情况下出现， 
+                            身披金甲圣衣， 
+                           脚踏七彩祥云来娶我！</p>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>第三页</h2>
+						<p>At the time of its introduction the canvas element was met with mixed reactions from the web standards community. There havte been arguments against Apple's decision to create a new proprietary element instead of supporting the SVG standard. There are other concerns about syntax e.g. the absence of a namespace.</p>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h2>Support</h2>
+						<p>The element is currently supported by the latest versions of Mozilla Firefox, Google Chrome, Safari, and Opera. It is not natively implemented by Internet Explorer (IE) as of version 8, though support is in development for Internet Explorer 9; however, many of the Canvas element's features can be supported in IE, for example by using Google or Mozilla plugins, JavaScript libraries and either Adobe Flash or IE's proprietary VML.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script>
+			/*var s = document.getElementById('pages').innerHTML;
+			var r = '';
+			for (var i=0; i<15; i++) {
+				r += s;
+			}
+			document.getElementById('pages').innerHTML = r;*/
+		</script>
+		<script type="text/javascript" src="pageflip.xpc.js"></script>
+		<script>
+			new PageFlip({
+				book: 'book',
+				bookWidth: 912,
+				bookHeight: 583,
+				pageWidth: 396,
+				pageHeight: 511,
+				topSpace: 33
+			})
+		</script>
+	</body>
+<html>
